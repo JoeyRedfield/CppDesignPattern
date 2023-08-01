@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; //3
 
 class MainTemplate
 {
@@ -47,7 +47,7 @@ protected:
     virtual bool step2() {
         return false;
     }
-    // Õâ¸ö¿Õº¯Êý±ØÐëµÃÐ´£¬²»È»App2¾ÍÊÇ³éÏóÀàÁË¡£
+    // ï¿½ï¿½ï¿½ï¿½Õºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½È»App2ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½
     virtual int step3() {
         return 0;
     }
